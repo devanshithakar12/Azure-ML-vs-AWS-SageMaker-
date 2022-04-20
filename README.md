@@ -76,6 +76,11 @@ SELECT survived, age, fare, 1, 2, 3, female, male, C, Q, S FROM df;
 
 
 
+* You're done with the Data Flow! Now we want to Export. Let's explore different options by going to +Export. 
+
+### Step 5: Clean up!
+* On the left, click on Running Terminals and Kernals. Next to Running Apps click on the X. This will close out all your application sessions. I also close all my notebooks.
+
 
 
 
