@@ -10,10 +10,8 @@ In this tutorial, you will go through various ways of importing, transforming, a
 ### Step 0: Before You Start 
 * AWS Account - Sign up for a free AWS account here 
 
-
-
 ### Step 1: Download Dataset and Upload to S3 Bucket 
-* Download Titanic Dataset here - Grab the .CSV file
+* Download Titanic Dataset from the Github page - Grab the .CSV file
 * Navigate to AWS portal and type S3 in the Search Bar 
   *  Hit Create a bucket:  Name your bucket and leave all other settings as default.
 
