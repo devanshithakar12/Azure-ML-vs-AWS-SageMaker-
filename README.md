@@ -1,9 +1,7 @@
 # Azure-ML-vs-AWS-SageMaker-
 
 ## Overview
-In this tutorial, you will go through various ways of importing, transforming, analyzing, and exporting data with SageMaker. This tutorial will walk you through the steps in Data Wrangler within the AWS SageMaker Studio, AWS SageMaker Canvas, and AWS SageMaker Studio Notebooks. You will learn to:
-
- * Create
+In this tutorial, you will go through various ways of importing, transforming, analyzing, and exporting data with SageMaker. This tutorial will walk you through Data Wrangler in the AWS SageMaker Studio and AWS SageMaker Canvas. 
 
 ## Data Wrangler 
 
@@ -83,4 +81,4 @@ Hit preview and click Add. You should see some new columns on the right.
 
 
 ## Canvas 
-
+Tutorial - https://docs.aws.amazon.com/sagemaker/latest/dg/canvas-getting-started.html
