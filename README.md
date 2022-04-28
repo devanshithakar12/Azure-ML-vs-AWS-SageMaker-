@@ -53,7 +53,7 @@ In this tutorial, you will go through various ways of importing, transforming, a
    * Let's take a look at the Custom Tranform option. Select Python(Pandas). Enter this query: df.info(). You will see 1045 entries that are remaining after all the transformations. We do not have to save this. Let's click on Custom transform again. Select Python(Pandas). 
  
  Insert this code:
-
+```
 import pandas as pd
 
 dummies = []
@@ -65,13 +65,16 @@ encoded = pd.concat(dummies, axis=1)
 
 df = pd.concat((df, encoded),axis=1)
 
+```
 Hit preview and click Add. You should see some new columns on the right.
 
  
   * SQL: Hit Custom Transform again. Click on SQL(PySpark SQL). Here we want to select the columns we want to keep.
     
-     Insert this code: SELECT survived, age, fare, 1, 2, 3, female, male, C, Q, S FROM df;
-
+     Insert this code: 
+     ```
+     SELECT survived, age, fare, 1, 2, 3, female, male, C, Q, S FROM df;
+     ```
 
 
 * You're done with the Data Flow! Now we want to Export. Let's explore different options by going to +Export. 
