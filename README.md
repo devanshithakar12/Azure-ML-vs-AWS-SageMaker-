@@ -80,7 +80,9 @@ Hit preview and click Add. You should see some new columns on the right.
 * You're done with the Data Flow! Now we want to Export. Let's explore different options by going to +Export. 
 
 ### Step 5: Clean up!
-* On the left, click on Running Terminals and Kernals. Next to Running Apps click on the X. This will close out all your application sessions. I also close all my notebooks.
+* Make sure all and any S3 buckets are deleted!
+* In the Studio: On the left, click on Running Terminals and Kernals. Next to Running Apps click on the X. This will close out all your application sessions. I also close all my notebooks.
+* Delete all Domain's open for the Studio and Canvas (Part 2)
 
 
 ## Canvas 
